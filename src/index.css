@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    font-family: 'Manrope', sans-serif;
+}
+
+.my-container{
+    @apply px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4
+  }
+
+.title{
+   @apply text-4xl font-bold text-center
+}
+.my-button{
+  @apply border border-cyan-800 px-3 py-2 rounded mr-3
+}
+
+.h3{
+  @apply font-bold text-2xl
+}
+
+.active{
+  @apply font-medium tracking-wide text-cyan-600 transition-colors duration-200
+}
